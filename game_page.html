@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <title>
+            Space Invaders: Reboot
+        </title>
+
+        <link rel="stylesheet" href="game_page.css">
+        <script src="game_page.js"></script>
+        <link rel="icon" type="image/x-icon" href="controllerIcon.png">
+    </head>
+
+    <body id="body" onload="page_loadup()">
+        <div id="div-container">
+            <br>
+            <div class="popup" id="popup-startup" onclick="onload_setup()">
+                <img id="title" width="1558" height="456" src="title.png">
+                <div>
+                    Click Anywhere to Begin
+                </div>
+                <br>
+                <span>Hover Here For Instructions</span>
+                <pre>
+                    <img src="instructions.png" height="400" width="550">
+                </pre>
+            </div>
+            <div class="popup" id="popup-gameover">
+                <img id="gameover" width="810" height="209" src="gameover.png">
+            </div>
+            <div class="popup" id="popup-you-win">
+                <img id="gameover" width="914" height="283" src="you_win.png">
+            </div>
+        </div>
+        <div id="popup-developer-name">
+            <a href="https://github.com/mattfung99" style="text-decoration: none">
+                <p id="matt-fung">
+                    ** GITHUB || Matt Fung 2019 || Ver 1.0 **
+                </p>
+            </a>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,63 @@
+#body {
+    background: url(nebula.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+#canvas-container {
+    border: 2px solid white;
+}
+
+#div-container {
+    text-align: center;
+    width: 100%;   
+}
+
+#gameover {
+    padding-top: 15%;
+}
+
+#matt-fung {
+    color: white;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 8px;
+    text-align: right;
+}
+
+#menu-startup {
+    display: inline-block;
+    height: 850px;
+    position: relative;
+    width: 1000px;
+}
+
+.popup {
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+    left: 0;
+    overflow: auto;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#popup-startup {
+    color: white;
+    font-family: "Arial, Helvetica, sans-serif";
+    font-size: 16px;
+}
+
+pre {
+  display: none;
+  position: relative;
+}
+
+span:hover + pre {
+  display: block;
+  position: relative;
+}
+
+/* #title {
+    padding-top: 10%;
+} */
