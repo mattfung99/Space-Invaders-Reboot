@@ -25,7 +25,7 @@ Game Instructions:
 <br><br>
 Tips:
 <br>
--> The player has a health of 200 and the shield has a health of 100
+-> The player initially has a health of 200 and the shield has a health of 100
 <br>
 -> Once the shield has a health of 0 or less, it will be destroyed and the player will no longer have a shield
 <br>
