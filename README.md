@@ -1,8 +1,8 @@
 # Space-Invaders-Reboot
 A rendition of the classic Space Invader from 1978
-<br>
+<br><br>
 Game Instructions:
-<br>
+<br><br><br>
 -> Movement:
 <br>
 -> ** ARROW UP - Move up
@@ -12,7 +12,7 @@ Game Instructions:
 -> ** ARROW LEFT - Move left
 <br>
 -> ** ARROW RIGHT - Move right
-<br>
+<br><br><br>
 -> Actions:
 <br>
 -> ** SPACE - Shoot
